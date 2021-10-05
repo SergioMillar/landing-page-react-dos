@@ -13,11 +13,13 @@ import Home from "./component/home.jsx";
 import Navbar from "./component/Navbar.jsx";
 import Footer from "./component/Footer.jsx";
 import Deckofcards from "./component/Cards.jsx";
+import Jumbotron from "./component/Jumbotron.jsx";
 
 const App = () => {
 	return (
 		<div>
 			<Navbar />
+			<Jumbotron />
 			<Deckofcards />
 			<Footer />
 		</div>

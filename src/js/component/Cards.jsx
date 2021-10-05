@@ -22,8 +22,8 @@ Cardelement.propTypes = {
 };
 function Deckofcards() {
 	return (
-		<div className="container">
-			<div className="row">
+		<div className="container pt-4">
+			<div className="row pb-5">
 				<div className="col-sm">
 					<Cardelement
 						imgurl="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/0fa4ef121288983.60c28835edd1b.jpg"
