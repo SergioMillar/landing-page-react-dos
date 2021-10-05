@@ -10,6 +10,21 @@ import "../styles/index.scss";
 
 //import your own components
 import Home from "./component/home.jsx";
+import Navbar from "./component/Navbar.jsx";
+import Footer from "./component/Footer.jsx";
+import Deckofcards from "./component/Cards.jsx";
+import Jumbotron from "./component/Jumbotron.jsx";
+
+const App = () => {
+	return (
+		<div>
+			<Navbar />
+			<Jumbotron />
+			<Deckofcards />
+			<Footer />
+		</div>
+	);
+};
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<App />, document.querySelector("#app"));
