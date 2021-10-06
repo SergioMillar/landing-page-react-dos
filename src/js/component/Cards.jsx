@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function Cardelement(props) {
+	/* Estructura de una tarjeta con información dinámica */
 	return (
 		<div className="card">
 			<img src={props.imgurl} className="card-img-top" alt="..." />
@@ -16,11 +17,13 @@ function Cardelement(props) {
 	);
 }
 Cardelement.propTypes = {
+	/*Verificación de que pase un string */
 	imgurl: PropTypes.string,
 	title: PropTypes.string,
 	text: PropTypes.string
 };
 function Deckofcards() {
+	/* Contenedor padre para las tarjetas con código de Bootstrap */
 	return (
 		<div className="container pt-4">
 			<div className="row pb-5">
@@ -68,4 +71,4 @@ function Deckofcards() {
 		</div>
 	);
 }
-export default Deckofcards;
+export default Deckofcards; /* para renderizar en index.js */
